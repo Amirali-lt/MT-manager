@@ -12,10 +12,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-print("BOT_TOKEN EXISTS:", bool(BOT_TOKEN))
-print("BOT_TOKEN LENGTH:", len(BOT_TOKEN) if BOT_TOKEN else 0)
-print("TOKEN START:", repr(BOT_TOKEN[:5]) if BOT_TOKEN else None)
-print("TOKEN END:", repr(BOT_TOKEN[-5:]) if BOT_TOKEN else None)
+print("=== RAILWAY ENV DEBUG ===")
+print("RAILWAY_ENVIRONMENT_NAME:", os.getenv("RAILWAY_ENVIRONMENT_NAME"))
+print("RAILWAY_SERVICE_NAME:", os.getenv("RAILWAY_SERVICE_NAME"))
+print("BOT_TOKEN EXISTS:", "BOT_TOKEN" in os.environ)
+print("BOT_TOKEN VALUE EXISTS:", bool(os.getenv("BOT_TOKEN")))
+print("==========================")
 # =========================================================
 # CATEGORY BUTTONS
 # این ایموجی‌ها فقط برای نمایش دکمه‌ها هستند
