@@ -14,7 +14,8 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 print("BOT_TOKEN EXISTS:", bool(BOT_TOKEN))
 print("BOT_TOKEN LENGTH:", len(BOT_TOKEN) if BOT_TOKEN else 0)
-
+print("TOKEN START:", repr(BOT_TOKEN[:5]) if BOT_TOKEN else None)
+print("TOKEN END:", repr(BOT_TOKEN[-5:]) if BOT_TOKEN else None)
 # =========================================================
 # CATEGORY BUTTONS
 # این ایموجی‌ها فقط برای نمایش دکمه‌ها هستند
