@@ -12,7 +12,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-
+print("BOT_TOKEN EXISTS:", bool(BOT_TOKEN))
+print("BOT_TOKEN LENGTH:", len(BOT_TOKEN) if BOT_TOKEN else 0)
 
 # =========================================================
 # CATEGORY BUTTONS
