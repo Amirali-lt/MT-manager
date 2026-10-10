@@ -43,17 +43,17 @@ CATEGORIES = {
 # =========================================================
 
 CAPTION_SETTINGS = {
-    "fun": ("🐺", "Earth024", "#Fun"),
-    "music": ("🐺", "Earth024", "#Music"),
-    "animations": ("🐺", "Earth024", "#Animations"),
-    "movies": ("🐺", "Earth024", "#Movies"),
-    "games": ("🐺", "Earth024", "#Games"),
-    "idk": ("🐺", "Earth024", "#IDK"),
-    "vehicles": ("🐺", "Earth024", "#Vehicles"),
-    "military": ("🐺", "Earth024", "#Military"),
-    "brink": ("🐺", "Earth024", "#Brink"),
-    "sports": ("🐺", "Earth024", "#Sports"),
-    "motivational": ("🐺", "Earth024", "#Motivational"),
+    "fun": ("🎨", "Earth024", "#Fun"),
+    "music": ("🎨", "Earth024", "#Music"),
+    "animations": ("🎨", "Earth024", "#Animations"),
+    "movies": ("🎨", "Earth024", "#Movies"),
+    "games": ("🎨", "Earth024", "#Games"),
+    "idk": ("🎨", "Earth024", "#IDK"),
+    "vehicles": ("🎨", "Earth024", "#Vehicles"),
+    "military": ("🎨", "Earth024", "#Military"),
+    "brink": ("🎨", "Earth024", "#Brink"),
+    "sports": ("🎨", "Earth024", "#Sports"),
+    "motivational": ("🎨", "Earth024", "#Motivational"),
 }
 
 
